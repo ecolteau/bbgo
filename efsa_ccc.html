@@ -14,11 +14,8 @@ body {  font-size: 1em;  line-height: 1.2em; margin-top:2em;}
 </style>
 
 <script language="JavaScript">
-  var issn = function()
-  {
     var urlParams = new URLSearchParams(window.location.search);
-    return urlParams.get('issn');
-  }
+    var issn = urlParams.get('issn');
 </script>
    
 </head>
