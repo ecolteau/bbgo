@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Bibliogo Copyright Disclaimer</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<style>
+body {  font-size: 1em;  line-height: 1.2em; margin-top:2em;}
+#myCard {padding:1em;}
+</style>
+
+<script language="JavaScript">
+    var urlParams = new URLSearchParams(window.location.search);
+    var issn = urlParams.get('issn');
+</script>
+   
+</head>
+
+<body>
+   <div class="container-fluid">
+
+   <div class="row">
+    <div class="col-3"></div>
+    <div class="col-6"><div class="card bg-warning" id="myCard">
+      <h4>A single copy of this full text PDF has been legally purchased.</h4>
+        <p><span class="font-weight-bolder">Bial</b> holds a <a href="http://www.copyright.com/" target="_blank" class="btn btn-light btn-sm">CCC Multinational Licence</a> and therefore you may already have certain rights to share PDFs, store, make further copies of this article according to the terms of our CCC licence.</p> 
+        <p>Before making copies of this PDF please check <a href="https://rightfind.copyright.com/rs-ui-web/search#/journal/" target="_blank" class="btn btn-light btn-sm" onclick="location.href=this.href+issn;return false;">Bial's CCC licence (RightFind)</a> to ensure the article is covered for further copying and distribution.</p>
+        <p class="font-weight-bold">If you are a Bial sales rep then please do not download a copy of this PDF to provide to an HCP. Instead please contact your Medical Manager if you need to provide an additional copy.</p>
+    </div></div>
+    <div class="col-3"></div>
+   </div>
+   
+   </div>
+</body>
+
+</html>
